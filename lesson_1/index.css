@@ -1,0 +1,12 @@
+h1{text-align: center; background-color: chartreuse; border: 10px solid orange ;}
+.b{
+width: 1000px;
+height: 1000px;
+border: 2px dashed rgb(255, 0, 38);
+}
+h2{border: 10px dotted rgb(12, 144, 43);}
+#box{border: 10px double rgb(51, 0, 255);}
+.box2{border: 10px groove rgb(0, 255, 221);}
+.box3{border: 10px ridge rebeccapurple;}
+.box4{border: 10px inset royalblue;}
+.box5{border: 10px outset orchid;}
