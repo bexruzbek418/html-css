@@ -1,0 +1,11 @@
+body{background-color: lightcyan;}
+h1{text-align: center;}
+.Continer{width:300px; height:300px; background-color: white; border-radius: 5%;
+      margin:0 auto; padding:20;}
+.Margin{width: 250px; height: 250px; background-color: rgb(121, 237, 210); margin:0 auto;
+     border: 2px dashed rgb(64, 208, 174);}
+.Border{width: 200px; height: 200px; background-color: white; margin: 0 auto; border: 2px solid;}
+.Padding{width: 150px; height: 150px; background-color: pink; 
+     border:2px dashed rgb(248, 91, 117);margin: 0 auto; }
+.Contect{width:100px; height: 20px; background-color: aqua; margin: 0 auto;text-align: center;
+border: 2px solid blue;}
