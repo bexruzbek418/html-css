@@ -1,0 +1,30 @@
+div{height: 400px;
+width: 400px;
+position: absolute;
+border: solid 20px;
+}
+.box{
+background-color: aqua;
+position: absolute;
+bottom:  200px;
+left: 200px;
+z-index:2 ;
+}
+.box1{
+    background-color: chartreuse;
+    position:absolute;
+    bottom: 100%;
+    top: 450px;
+    left:300px ;
+    z-index: 1;
+}
+.box2{background-color: rgb(255, 0, 0);
+left: 100px; 
+bottom: 550;
+z-index: 0;}
+.box3{background-color: blue;
+left: 500px;
+bottom: 300px;
+z-index: 3;
+border: solid rgb(207, 207, 70) 20px;}
+body{background-color: rgb(67, 67, 128);}
