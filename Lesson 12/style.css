@@ -1,0 +1,21 @@
+.q{height: 200px;
+width: 200px;
+background-color: rgb(224, 145, 145);
+position: relative;
+left: 50px;
+top: 50px;
+}
+.w{height: 400px;
+width: 400px;
+background-color: rgb(188, 223, 154);
+position: relative;
+bottom: 120px;
+left: 80px;
+}
+.e{height: 200px;
+width: 200px;
+background-color: aliceblue;
+position: relative;
+bottom: 470px;
+left: 130px;
+}
