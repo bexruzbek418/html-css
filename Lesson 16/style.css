@@ -1,0 +1,58 @@
+*{margin: 0;
+padding: 0;
+}
+
+nav{
+height: 60px;
+    display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: rgb(135, 133, 133);
+}
+
+.logo{
+height: 40px;
+width: 70px;
+background-size: contain;
+background-image: url(https://kun.uz/assets/66844a27/img/icons/logo-light.svg);
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.menu{
+display: flex;
+gap: 20px;
+}
+
+a{
+text-decoration: none;
+color: black;
+font-weight: bold;
+}
+
+input{
+    width: 100px;
+height: 30px;
+border-radius: 20px;
+border:none ;
+text-align: center;
+}
+
+input::placeholder{
+text-align: center;
+color: blue;
+}
+
+main{display: flex;
+ gap: 10px;
+}
+
+.box{
+    background-color: blue;
+    height: 90vh;
+    flex-grow: 2;
+    text-align: center;
+    line-height: 90vh;
+}
+.red{flex-grow: 1;
+background-color: red;}
