@@ -43,16 +43,49 @@ text-align: center;
 color: blue;
 }
 
-main{display: flex;
- gap: 10px;
+main{
+  margin-inline: 50px;
+    width: 80%;
+    display: flex;
+     gap: 50px;
+     
 }
 
 .box{
-    background-color: blue;
-    height: 90vh;
-    flex-grow: 2;
-    text-align: center;
-    line-height: 90vh;
+flex-grow: 1;
+text-align: center;
 }
-.red{flex-grow: 1;
-background-color: red;}
+
+.left{
+display: flex;
+flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    width: 80%;
+    align-items: center;
+  
+}
+
+img{
+    width: 200px;
+    height: 150px;
+}
+
+h3{
+    color: blue;
+}
+
+.right{
+  display: flex;  
+  flex-direction: column;
+}
+.cards{
+    margin-bottom: 20px;
+    width: 200px;
+    height: 300px;
+  
+    border-radius: 10px;
+    text-align: center;
+}
