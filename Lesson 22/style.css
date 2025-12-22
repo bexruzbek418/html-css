@@ -1,0 +1,69 @@
+a::after{
+content: "+33";
+color: blue;
+}
+
+a::before{
+content: "NEW";
+color: red;
+}
+
+.box{
+    position: relative;
+    width:300px ;
+    height: 170px;
+    background-color: gray;
+    margin: 100px auto;
+    border-radius: 20px;
+}
+
+.box::after{
+    content: "💵";
+    font-size: 20px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid white;
+    border-radius: 50px;
+    right: 12px;
+    bottom: 20px;
+}
+
+.box::before{
+    content: "💬";
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    opacity: 0.3;
+    font-size: 70px;
+}
+
+input{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+}
+
+input::placeholder{
+    color: red;
+    text-align: center;
+}
+
+p::first-letter{
+    font-size: 100px;
+    color: blue;
+}
+p::first-line{
+    font-size: 50px;
+    color: brown;
+}
+p::selection{
+    color: chartreuse;
+    background-color: aqua;
+}
