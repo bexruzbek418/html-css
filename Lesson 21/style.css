@@ -1,0 +1,18 @@
+.box{
+width: 100px;
+height: 100px;
+background-color: blueviolet;
+animation :misol 3s ease-in 1s infinite alternate;
+position: absolute;
+top: 200px;
+}
+
+@keyframes misol {
+ 0%{ transform: translateX(0); }
+ 25%{transform: translateX(40vh)}
+50%{transform: translateX(40vh) scale(1.5)}
+75%{transform: translateX(40vh) scale(1.5) rotate(360deg)}
+80%{transform: translateX(40vh) scale(1.5) rotate(360deg) translateY(40vh)}
+90%{transform: translateX(40vh) scale(1.5) rotate(360deg)  translateY(0vh) translateX(0vh) }
+100%{transform: translateX(40vh) scale(1.5) rotate(360deg)  translateY(0vh) translateX(30vh)}
+}
