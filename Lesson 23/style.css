@@ -1,0 +1,12 @@
+body{background-color: grey;}
+.box{position: absolute; top:20%; left:30%; background-color: white; text-align: center;
+width:200px; height:100px; background-color: white; text-align: center;
+line-height: 30px; border-radius: 10px; }
+small{opacity: 0.5; }
+a{text-decoration: none; color: white;}
+button{background-color: blue; border: none; padding: 5px 10px; border-radius: 5px; }
+
+ .box1{position: absolute; top:50%; left:30%; background-color: white; text-align: center;
+width:200px; height:300px; background-color: white; text-align: center;
+line-height: 30px; border-radius: 10px; box-shadow: 2px 2px 4px;} 
+img{width:150px; height:150px; border-radius: 50%; }
