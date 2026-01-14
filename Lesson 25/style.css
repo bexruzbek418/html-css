@@ -1,0 +1,29 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: solid 2px black;
+    text-align: center;
+    line-height: 90px;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.white{
+    background-color: white;
+}
+.blue{
+    background-color: blue;
+}
