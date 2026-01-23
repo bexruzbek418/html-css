@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    }
+.continer{
+    width: 500px;
+    height: 90vh;
+    margin: 20px auto;
+    }
+.box{
+    width: 500px;
+    height: 940px;
+    background-color: rgb(30, 135, 248);
+    margin-top: 50px;
+    
+    }
+h1{
+    font-size: 40px;
+}
+.box1{
+    height: 75px;
+    width: 75px;
+    background-color: rgb(30, 135, 248);
+    margin-top: 20px;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 100%;
+}
+img{
+    width: 70px;
+    height: 70px;
+    margin-top: 17px;
+}
+.q{
+    color: white;
+    padding: 30px;
+}
+a{
+   display: inline-block;
+   color: white;
+}
+p{
+    margin: 30px;
+}
