@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: rgb(242, 234, 225);
+}
+.logo{
+   width: 100px;
+   height: 30px;
+   background-color: #0486ff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+}
+button{
+    width: 97px;
+    height: 30px;
+    background-color: #76b1e8;
+    color: rgb(22, 116, 248);
+    border: none;
+}
+.sarlavha{
+    width: 400px;
+    height: 400px;
+}
+.tort{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(254, 214, 95);
+}
+.box{
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.b{
+    width: 300px;
+    height: 200px;
+    background-color:rgb(254, 214, 95) ;
+    color: white;
+    font-size: 30px;
+
+}
+
+
+
+.continer{
+    display: flex;
+    align-items: center;
+}
+
+.p{
+    width: 200px;
+    height: 90px;
+    border: 2px solid black;
+}
+.left{
+display: flex;
+flex-direction: column;
+}
