@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    align-items: center;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(44, 44, 245);
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+main{
+    background:linear-gradient(to left,   rgb(44, 44, 245), rgba(95, 95, 255, 0.982));
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+p{
+    font-size: 30px;
+    font-weight: bold;
+}
+h1{
+    font-size: 50px;
+    color:white;
+}
+small{
+    font-size: 20px;
+    color: white;
+}
+button{
+    background-color: white;
+    border: none;
+    height: 30px;
+    width: 150px;
+    border-radius: 100px;
+    color: rgb(44, 44, 245) ;
+    margin-top: 20px;
+}
+.continer{
+    background-color: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 460px;
+}
+.box{
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}
+.xizmat{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    height: 350px;
+}
+.box{
+    text-align: center;
+    box-shadow: 2px 2px 4px;
+}
+body{
+    background-color: silver;
+}
+h2{
+    color: rgb(44, 44, 245);
+    margin-top: 30px;
+}
+p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    height: 90px;
+    text-align: center;
+}
